@@ -19,8 +19,6 @@ The analysis is based on the following historical information from borrowers:
 
 Using the information provided, the model was trained to try to predict the Loan Status as healthy or high-risk.
 
-* Describe the stages of the machine learning process you went through as part of this analysis.
-
 The Loan Status was split out from the rest of the data and then both were split into training and testing datasets using train_test_split from [sklearn](https://scikit-learn.org/stable/). 
 
 Using sklearn, a Logistic Regression was run on the split data. 
@@ -30,8 +28,6 @@ The data was then resampled to take account of the low number of high-risk loans
 A logistic regression analysis was then completed on the resampled data.
 
 ## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1: Logistic Regression
     * Acccuracy: 95%
